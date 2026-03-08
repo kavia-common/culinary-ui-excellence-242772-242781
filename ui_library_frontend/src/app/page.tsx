@@ -1,9 +1,5 @@
+import { AppShell } from "@/components/shell/AppShell";
+
 export default function Home() {
-  return (
-    <main className="min-h-screen bg-white flex items-center justify-center">
-      <h1 className="text-black text-4xl font-light">
-        ui_library_frontend is being generated
-      </h1>
-    </main>
-  );
+  return <AppShell />;
 }
